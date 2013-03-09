@@ -1,0 +1,17 @@
+/* CSS Document */
+p
+{
+	text-align:justify;
+	background-color:#FFCCFF;
+	color:#FFFFFF;
+}
+h2
+{
+	text-align:center;
+	color:#9900CC;
+}
+/*Pseudo element*/
+ol
+{
+	list-style-type:circle;
+}
