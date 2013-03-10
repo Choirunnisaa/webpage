@@ -3,12 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Formulir Isian</title>
+<title>Formulir Isian Curriculum Vitae</title>
 </head>
-
 <body>
-<h1 style="text-align:center">Formulir Isian</h1>
+<h2>Formulir Isian Curriculum Vitae</h2>
 <table width="200" border="0">
+<h3>Biodata Diri</h3>
+<table border="0">
   <tr>
     <td>Nama</td>
     <td><input type="text" name="nama"/></p></td>
@@ -56,8 +57,6 @@
   		<option value="29">29</option>
   		<option value="30">30</option>
 	</select>
-	</td>
-	<td>
     <select name="Bulan">
   		<option value="Januari">Januari</option>
   		<option value="Pebruari">Pebruari</option>
@@ -72,6 +71,7 @@
   		<option value="November">November</option>
   		<option value="Desember">Desember</option>
 	</select>
+	<input type="text" name="Tahun"/></p>
 	</td>
   </tr>
   <tr>
@@ -94,28 +94,66 @@
     <td><input type="text" name="no.telp"/></p></td>
   </tr>
 </table>
-<h2>Riwayat Pendidikan</h2>
+<h3>Riwayat Pendidikan</h3>
 <table>
 <tr>
     <td>SD</td>
     <td><input type="text" name="sd"/></p></td>
-	<br />
+	<td>Tahun</td>
+    <td><input type="text" name="tahun"/></p></td>
+	<td>-</td>
+    <td><input type="text" name="tahun"/></p></td>
   </tr>
 <tr>
     <td>SMP</td>
     <td><input type="text" name="smp"/></p></td>
-	<br />
+	<td>Tahun</td>
+    <td><input type="text" name="tahun"/></p></td>
+	<td>-</td>
+    <td><input type="text" name="tahun"/></p></td>
 </tr>
 <tr>
     <td>SMA</td>
     <td><input type="text" name="sma"/></p></td>
-	<br />
+	<td>Tahun</td>
+    <td><input type="text" name="tahun"/></p></td>
+	<td>-</td>
+    <td><input type="text" name="tahun"/></p></td>
 </tr>
 <tr>
     <td>Universitas</td>
     <td><input type="text" name="universitas"/></p></td>
+	<td>Tahun</td>
+    <td><input type="text" name="tahun"/></p></td>
+	<td>-</td>
+    <td><input type="text" name="tahun"/></p></td>
 	<br />
 </tr>
 </table>
+<h3>Pengalaman Organisasi</h3>
+<table border="0">
+<tr>
+    <td align="center">Jabatan</td>
+	<td align="center">Tahun</td>
+</tr>
+<tr>
+<td><input type="text" name="jabatan"/></p></td>
+<td><input type="text" name="tahun"/></p></td>
+</tr>
+<tr>
+<td><input type="text" name="jabatan"/></p></td>
+<td><input type="text" name="tahun"/></p></td>
+</tr>
+<tr>
+<td><input type="text" name="jabatan"/></p></td>
+<td><input type="text" name="tahun"/></p></td>
+</tr>
+<tr>
+<td><input type="text" name="jabatan"/></p></td>
+<td><input type="text" name="tahun"/></p></td>
+</tr>
+</table>
+<input type="submit" value="Kirim data"/>
+<input type="reset" value="Ulangi"/></p>
 </body>
 </html>
